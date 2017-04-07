@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title> API rest </title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js"></script>
+    <script src="client.js"></script>
+    <style media="screen">
+      .delete {
+        color: red;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <form>
+      <h1>Create a new block</h1>
+      <input type="text" name="key" placeholder="Key"><br>
+      <input type="text" name="value" placeholder="Value"><br>
+      <button type="submit">Send</button>
+    </form>
+
+    <ul id="list-blocks"></ul>
+  </body>
+</html>
